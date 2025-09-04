@@ -72,12 +72,9 @@
 			<div class="col-sm-4" style='height: 350px;'>
 				<div class="thumbnail">
 					<img src="./ShowImage?pid=<%=product.getProdId()%>" alt="Product"
-						style="height: 150px; max-width: 180px;">
+						style="height: 120px; max-width: 120px;">
 					<p class="productname"><%=product.getProdName()%>
-						(
-						<%=product.getProdId()%>
-						)
-					</p>
+						</p>
 					<p class="productinfo"><%=product.getProdInfo()%></p>
 					<p class="price">
 						Rs

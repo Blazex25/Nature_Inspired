@@ -67,13 +67,13 @@
 					<div class="col-md-6 form-group">
 						<label for="producttype">Product Type</label> <select name="type"
 							id="producttype" class="form-control" required>
-							<option value="mobile">MOBILE</option>
-							<option value="tv">TV</option>
-							<option value="camera">CAMERA</option>
-							<option value="laptop">LAPTOP</option>
-							<option value="tablet">TABLET</option>
-							<option value="speaker">SPEAKER</option>
-							<option value="other">Some Other Appliances</option>
+							<option value="Spring">Spring</option>
+							<option value="Summer">Summer</option>
+							<option value="Monsoon">Monsoon</option>
+							<option value="Autumn">Autumn</option>
+							<option value="Pre-Winter">Pre-Winter</option>
+							<option value="Winter">Winter</option>
+							<option value="other">Some Other Seasons</option>
 						</select>
 					</div>
 				</div>

@@ -7,13 +7,13 @@ public class MailMessage {
 		String recipient = emailId;
 		String subject = "Registration Successfull";
 		String htmlTextMessage = "" + "<html>" + "<body>"
-				+ "<h2 style='color:green;'>Welcome to Ellison Electronics</h2>" + "" + "Hi " + name + ","
-				+ "<br><br>Thanks for singing up with Ellison Electronics.<br>"
-				+ "We are glad that you choose us. We invite you to check out our latest collection of new electonics appliances."
-				+ "<br>We are providing upto 60% OFF on most of the electronic gadgets. So please visit our site and explore the collections."
-				+ "<br><br>Our Online electronics is growing in a larger amount these days and we are in high demand so we thanks all of you for "
+				+ "<h2 style='color:green;'>Welcome to Nature-Inspired</h2>" + "" + "Hi " + name + ","
+				+ "<br><br>Thanks for singing up with Nature-Inspired.<br>"
+				+ "We’re delighted you chose us! 🌿✨ Step into the beauty of nature with our latest collection of fresh, nature-inspired floral creations. From elegant bouquets to enchanting arrangements, each design is crafted to bring a touch of freshness and joy to your space. Discover the charm of blossoms and let nature brighten your moments.."
+				+ "<br>We are providing upto 20% OFF on most of the Flower. So please visit our site and explore the collections."
+				+ "<br><br>Our Online Flower shop is growing in a larger amount these days and we are in high demand so we thanks all of you for "
 				+ "making us up to that level. We Deliver Product to your house with no extra delivery charges and we also have collection of most of the"
-				+ "branded items.<br><br>As a Welcome gift for our New Customers we are providing additional 10% OFF Upto 500 Rs for the first product purchase. "
+				+ "Rare items.<br><br>As a Welcome gift for our New Customers we are providing additional 10% OFF Upto 500 Rs for the first product purchase. "
 				+ "<br>To avail this offer you only have "
 				+ "to enter the promo code given below.<br><br><br> PROMO CODE: " + "ELLISON500<br><br><br>"
 				+ "Have a good day!<br>" + "" + "</body>" + "</html>";
@@ -27,9 +27,9 @@ public class MailMessage {
 
 	public static void transactionSuccess(String recipientEmail, String name, String transId, double transAmount) {
 		String recipient = recipientEmail;
-		String subject = "Order Placed at Ellison Electronics";
+		String subject = "Order Placed at Nature-Inspired";
 		String htmlTextMessage = "<html>" + "  <body>" + "    <p>" + "      Hey " + name + ",<br/><br/>"
-				+ "      We are glad that you shop with Ellison Electronics!" + "      <br/><br/>"
+				+ "      We are glad that you shop with Nature-Inspired!" + "      <br/><br/>"
 				+ "      Your order has been placed successfully and under process to be shipped."
 				+ "<br/><h6>Please Note that this is a demo projet Email and you have not made any real transaction with us till now!</h6>"
 				+ "      <br/>" + "      Here is Your Transaction Details:<br/>" + "      <br/>"
@@ -49,9 +49,9 @@ public class MailMessage {
 
 	public static void orderShipped(String recipientEmail, String name, String transId, double transAmount) {
 		String recipient = recipientEmail;
-		String subject = "Hurray!!, Your Order has been Shipped from Ellison Electronics";
+		String subject = "Hurray!!, Your Order has been Shipped from Nature-Inspired";
 		String htmlTextMessage = "<html>" + "  <body>" + "    <p>" + "      Hey " + name + ",<br/><br/>"
-				+ "      We are glad that you shop with Ellison Electronics!" + "      <br/><br/>"
+				+ "      We are glad that you shop with Nature-Inspired!" + "      <br/><br/>"
 				+ "      Your order has been shipped successfully and on the way to be delivered."
 				+ "<br/><h6>Please Note that this is a demo projet Email and you have not made any real transaction with us till now!</h6>"
 				+ "      <br/>" + "      Here is Your Transaction Details:<br/>" + "      <br/>"
@@ -71,9 +71,9 @@ public class MailMessage {
 
 	public static void productAvailableNow(String recipientEmail, String name, String prodName, String prodId) {
 		String recipient = recipientEmail;
-		String subject = "Product " + prodName + " is Now Available at Ellison Electronics";
+		String subject = "Product " + prodName + " is Now Available at Nature-Inspired";
 		String htmlTextMessage = "<html>" + "  <body>" + "    <p>" + "      Hey " + name + ",<br/><br/>"
-				+ "      We are glad that you shop with Ellison Electronics!" + "      <br/><br/>"
+				+ "      We are glad that you shop with Nature-Inspired!" + "      <br/><br/>"
 				+ "      As per your recent browsing history, we seen that you were searching for an item that was not available in sufficient amount"
 				+ " at that time. <br/><br/>"
 				+ "We are glad to say that the product named <font style=\"color:green;font-weight:bold;\">" + prodName
